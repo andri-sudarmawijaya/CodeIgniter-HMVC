@@ -5,16 +5,16 @@
 	"homepage": "https://github.com/alzen8work/ci_hmvc",
 	"license": "MIT",
 	"require": {
-		"php": ">=5.2.4",
-                "coreui/coreui": " ^4.0",
-                "fortawesome/font-awesome": " ^5.15",
-                "snapappointments/bootstrap-select": " ^1.13"
+		"php": ">=5.2.4"
 	},
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
 	},
 	"require-dev": {
 		"mikey179/vfsstream": "^1.6",
-		"phpunit/phpunit": "4.* || 5.*"
+		"phpunit/phpunit": "4.* || 5.*",
+                "coreui/coreui": " ^4.0",
+                "fortawesome/font-awesome": " ^5.15",
+                "snapappointments/bootstrap-select": " ^1.13"
 	}
 }
